@@ -137,11 +137,7 @@ The point of all of this is to narrow the search spance. There are 26! possibili
 
 There are common words and common letters. We need to search some space, but we should keep it as small as possible.
 
-At each point in this computation, we're deciding which eventualities to investigate, and
-which not to. Since we're not investigating every 26! possibilities, we may not get the
-correct answer -- it's impossible to guarantee the correct answer without examining
-every possibility. So we have to hope that our language model will give us sufficient
-direction that we'll only abandon worlds which are heuristically-speaking, extremely unlikely.
+At each point in this computation, we're deciding which eventualities to investigate, and which not to. Since we're not investigating every 26! possibilities, we may not get the correct answer -- it's impossible to guarantee the correct answer without examining every possibility. So we have to hope that our language model will give us sufficient direction that we'll only abandon worlds which are heuristically-speaking, extremely unlikely.
 
 The current corpus claims that every letter of the alphabet is used somehwere as a single-letter word:
 Counter({'a': 95610, 'i': 79585, 's': 29990, 'd': 15201, 't': 9660, 'o': 5534, 'm': 2231, 'e': 777, 'n': 431, 'v': 399, 'c': 384, 'p': 369, 'l': 352, 'f': 298, 'b': 226, 'r': 182, 'x': 159, 'y': 117, 'u': 108, 'h': 80, 'g': 75, 'j': 74, 'w': 63, 'k': 46, 'q': 29, 'z': 20})
