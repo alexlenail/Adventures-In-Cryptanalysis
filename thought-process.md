@@ -2,6 +2,8 @@
 
 # How I solved it (Log)
 
+![silly image](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/img/1.jpg)
+
 some words are all caps, make sure to replace them with lowercase when parsing (this will take a long time)
 
 build a bigram model.
@@ -18,6 +20,8 @@ I've built three structures: bigrams, words and letters. I want to optimize over
 
 ... (cook dinner for self and gf)
 
+![silly image](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/img/2.jpg)
+
 The point of all of this is to narrow the search spane. There are 26! possibilities, and we don't want to search them all.
 
 There are common words and common letters. We need to search some space, but we should keep it as small as possible.
@@ -27,6 +31,8 @@ At each point in this computation, we're deciding which eventualities to investi
 The current corpus claims that every letter of the alphabet is used somehwere as a single-letter word:
 Counter({'a': 95610, 'i': 79585, 's': 29990, 'd': 15201, 't': 9660, 'o': 5534, 'm': 2231, 'e': 777, 'n': 431, 'v': 399, 'c': 384, 'p': 369, 'l': 352, 'f': 298, 'b': 226, 'r': 182, 'x': 159, 'y': 117, 'u': 108, 'h': 80, 'g': 75, 'j': 74, 'w': 63, 'k': 46, 'q': 29, 'z': 20})
 Strange, huh?
+
+![silly image](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/img/3.jpg)
 
 The parameter KONSTANT is a branching factor, which we'll use to determine the breadth of the search space. At 26 we explore every possibility.
 Intuitively, 5 seems like a good place to start.

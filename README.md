@@ -4,7 +4,7 @@
 
 This problem was presented to me as a code challenge for a company I was applying to. This submission got me to the next round, where I promptly disqualified myself by having trouble efficiently computing Conway's Game Of Life.
 
-The problem statement follows. My solution can be found in [christopher.py](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/christopher.py). My thought process and results can be found in [thought-process.md](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/thought-process.md)
+The problem statement follows. My solution can be found in [christopher.py](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/christopher.py). My thought process and results can be found in [thought-process.md](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/thought-process.md). The prompt follows:
 
 =====
 
