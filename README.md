@@ -6,11 +6,11 @@ This problem was presented to me as a code challenge for a company I was applyin
 
 The problem statement follows. My solution can be found in [christopher.py](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/christopher.py). My thought process and results can be found in [thought-process.md](https://github.com/zfrenchee/adventures-in-cryptanalysis/blob/master/thought-process.md)
 
+=====
+
 ### Goal
 
 The goal of this problem is to write a program that decrypts a set of short messages (roughly the length of Tweets) that have been encrypted with a simple substitution cipher.
-
-=====
 
 ### Input Data
 
